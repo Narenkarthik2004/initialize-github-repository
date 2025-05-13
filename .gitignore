@@ -1,0 +1,37 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.idea/
+.vscode/
+
+# Shell history and sensitive files
+.bash_history
+.env
+*.env
+
+# Logs and temporary files
+*.log
+*.tmp
+*.pid
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Node dependencies (if using npm tools like GitHub Actions)
+node_modules/
+
+# Python cache (in case of python-based automation)
+__pycache__/
+*.pyc
+venv/
+
+# Terraform state (if using IaC)
+*.tfstate
+*.tfstate.backup
+
+# Docker image tar files
+*.tar
